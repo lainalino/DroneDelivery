@@ -20,6 +20,6 @@ There are two projects:
 - DroneDelivery where the solution is implemented
 
 The **AllCombinations** method of the **KnapSackService** class implements the KnapSack Algorithm. The KnapSack problem is an example of a combinational optimization problem. 
-The **ProcessDelivery** method of the **TripCombinationService** class implements the code to get the informations from an input text ( this File must to be in ./Files with a name Input.txt), read the information about the Drones and Locations. With these informations, in the method **GetTrips**, the knapSack algorithms is called.
+The **ProcessDelivery** method of the **TripCombinationService** class implements the code to get the informations from an input text ( this File must to be in ./Files with the name Input.txt), read the information about the Drones and Locations. With these informations, in the method **GetTrips**, the knapSack algorithms is called.
 In each localization iteration, each drone's knapsack will be run and the solution that returns the greatest number of locations will be selected. At the end of each iteration, the locations selected by the drone from the iteration locations list are removed until there are no locations left.
 The result is displayed in the console
