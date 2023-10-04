@@ -13,7 +13,7 @@ namespace DroneDelivery.Services
         /// into a container with a maximum capacity . 
         /// If the total size of the items exceeds the capacity, you can't pack them all.
         /// </summary>
-        public Trip Solve(Location[] listLocation, int weightCapacity)
+        public Trip AllCombinations(Location[] listLocation, int weightCapacity)
         {
             int weight = weightCapacity;
             int locationLength = listLocation.Length;

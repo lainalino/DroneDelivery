@@ -4,6 +4,6 @@ namespace DroneDelivery.Services.Interfaces
 {
     public interface IKnapSackService
     {
-        Trip Solve(Location[] location, int weightCapacity);
+        Trip AllCombinations(Location[] location, int weightCapacity);
     }
 }

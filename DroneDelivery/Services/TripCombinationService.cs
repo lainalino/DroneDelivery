@@ -94,7 +94,7 @@ namespace DroneDelivery.Services
                 // for each drone get the maxCombinations
                 foreach (var drone in listDrones)
                 {
-                    var solution = _knapSackService.Solve(listLocations.ToArray(), drone.MaxWeight);
+                    var solution = _knapSackService.AllCombinations(listLocations.ToArray(), drone.MaxWeight);
                     maxCombinations.Add(drone, solution);
                 }
 
