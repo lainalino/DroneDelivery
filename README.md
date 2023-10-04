@@ -8,10 +8,10 @@ to home base, it is extremely costly to refuel and reload the drone.
 
 ### **Stacks**:
 
-The implementation is developed in C#
-Use of the .Net 7 framework
-Visual Studio 2022
-Packages: Microsoft.Extensions.DependencyInjection
+- The implementation is developed in C#
+- Use of the .Net 7 framework
+- Visual Studio 2022
+- Packages: Microsoft.Extensions.DependencyInjection
 
 ### ** Drone Delivery**:
 
